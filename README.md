@@ -24,3 +24,6 @@ User can upload youtube videos<br/>
 User can change/update their profile<br/>
 User can reset password using token emailed to them<br/>
 
+## Contributors
+
+> Colin Modderman, Christian Castro, Kimberly Vargas and I
