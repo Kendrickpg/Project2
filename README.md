@@ -1,5 +1,5 @@
 # Project2
-Social Media Page, wehre users can post like, share youtube videos all in one area
+Social Media Page, where users can post, like, share youtube videos all in one area
 
 <h2>Technologies Used</h2>
 Java 11,
