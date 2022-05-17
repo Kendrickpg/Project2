@@ -28,6 +28,12 @@ To-do list:
 * youTube API skeleton popping up, but not functional
 * more DOManip
 
+<h2>Getting started</h2>
+* deploy using amazon ec2
+* postgreSQL
+* Spring Boot 
+* Spring Data 
+
 <h2>Usage</h2>
 * USER can create an account or login
 * USER can see all Posts by everyone 
