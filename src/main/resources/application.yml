@@ -1,0 +1,43 @@
+server:
+  port: 9039
+  
+spring:
+  autoconfigure:
+    exclude:
+      - org.springframework.cloud.aws.autoconfigure.context.ContextInstanceDataAutoConfiguration
+      - org.springframework.cloud.aws.autoconfigure.context.ContextStackAutoConfiguration
+      - org.springframework.cloud.aws.autoconfigure.context.ContextRegionProviderAutoConfiguration 
+  datasource:
+    url: 
+    username: 
+    password: 
+    driver-class-name: org.postgresql.Driver
+  jpa: 
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate: 
+      ddl-auto: none
+
+
+document:
+  bucket-name: project2-air-benders
+cloud:
+  aws:
+    region:
+      static: 
+      auto: false
+    credentials:
+      access-key: 
+      secret-key: 
+
+logging:
+  level:
+    com:
+      amazonaws:
+        util:
+          EC2MetadataUtils: error
+
+
+
+
+      
